@@ -1,0 +1,55 @@
+---
+title: "SEMANA_12_SISTEMATIZACIÓN"
+author: "ALEXANDRA_VIVAS_RAMOS"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 12:
+
+ode like this:
+
+```{r}
+#IMPORTAR ARCHIVO
+data<- read_csv("C:/Users/Lenovo/Downloads/s02_treat_artritis.csv")
+```
+
+**CALCULAR MEDIDAS DE DISPERSION(Varianza, Desviación estándar, Rango, Rango intercuartílico)**
+
+```{r}
+#VARIANZA
+var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#DESVIACION ESTANDAR
+sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTILICO
+IQR(data$Edad,na.rm = TRUE)
+```
+
+**MEDIDAS DE POSICIÓN**
+
+```{r}
+#Cuartiles
+quantile(data$Edad,probs = c(0.25,0.50,0.75,0.90),na.rm = TRUE)
+```
+
+```{r}
+#VISUALIZACION DE LAS 6 PRIMERAS FILAS
+head(data)
+```
+
+```{r}
+#VISUALIZAR UN RESUMEN
+summary(data)
+```
+
