@@ -1,0 +1,23 @@
+---
+title: "SEMANA_02"
+author: "SISTEMATIZACIÓN_Y_METODOS ESTADÍSTICOS"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 2 
+
+Semana 02: COMO CREAR UN PROYECTO EN R STUDIO
+
+```{r}
+#1. En la parte superior derecha: seleccionamos New Proyect 
+
+#2. Seleccionamos New Directory. 
+
+#3. Nuevamente seleccionamos New Proyect
+
+#4. Colocamos el nombre del proyecto, seleccionamos Browser para guardarlo en escritorio y finalmente Create Project para que se llegue a crear. 
+
+#5. Proyecto creado en R studio
+
+```
